@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForEach in Dom</title>
+</head>
+<body>
+    <h1>This is html page</h1>
+    <h1 id="loop"></h1>
+
+    <script>
+        const loop = document.getElementById('loop');
+        const count = [1, 2, 3, 4, 5, 6];
+        count.forEach((key) => {
+            loop.innerHTML = `${count} , This is JavaScript page`;
+        });
+    </script>
+</body>
+</html>
