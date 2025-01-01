@@ -224,3 +224,75 @@
     9). can use the spread operator (...) to clone an object or merge objects.
 
     ![alt text](image-7.png)
+
+30. What is futur of JavaScript.
+
+    ans =>
+
+        1.  JavaScript has a bright future as it keeps evolving and staying at the heart of web development. Here's the summary in simple terms:
+
+        2.  Better Tools and Frameworks: Popular ones like React, Angular, and Vue are improving, and new ones like Svelte are making things simpler and faster.
+
+        3.  AI and Machine Learning: JavaScript is being used to run AI directly in web browsers.
+
+        4.  WebAssembly: It’s teaming up with other languages to make apps super fast.
+
+        5.  Backend Growth: JavaScript isn’t just for websites anymore; tools like Node.js make it great for server work too.
+
+        6.  TypeScript: A more organized way to write JavaScript, making big projects easier to manage.
+
+        7.  Constant Updates: New features keep making JavaScript faster, smarter, and easier to use.
+
+31. What is NodeJS?
+
+    ans => Node.js is JavaScript that runs outside the browser. Normally, JavaScript is used for things like making websites interactive. But with Node.js, you can use JavaScript to write programs that run on your computer or server, not just in the browser.
+
+32. What is V8 Engine?
+
+    ans => The V8 Engine is a powerful JavaScript engine developed by Google. It is responsible for running JavaScript code, and it’s what powers JavaScript in Google Chrome and many other platforms, including Node.js.
+
+33. What is Event Loop in NodeJS.
+
+    ans => The Event Loop in Node.js is enables non-blocking, asynchronous programming. It's how Node.js handles multiple tasks at the same time while using only a single thread.
+
+34. What is the use of tsconfig.json file?
+
+    ans => This is configuration file used in TypeScript projects to define how the TypeScript compiler (tsc) should behave. It specifies the settings, rules, and options for compiling TypeScript files into JavaScript.
+
+35. What are the methods provided by `fs` module to manipulate files?
+
+ans => The fs (File System) module in Node.js provides various methods to work with the file system, such as reading, writing, updating, deleting, and managing files and directories. These methods are available in both synchronous and asynchronous versions.
+
+36. What is API?
+
+    ans => API (Application Programming Interface) is a set of rules and tools that allows different software applications to communicate with each other. It's help to communicate to front to backend also, it is travel with the data.
+
+37. What is JSON format?
+
+    ans => JSON data is written as key-value pairs inside curly braces {}. Keys are strings, and values can be different types.
+
+    ![alt text](image-8.png)
+
+38. Why we use JSON format for API?
+
+    ans => We use the JSON format for APIs because it is simple, efficient, and well-suited for data exchange between systems.
+
+        1). Lightweight and Compact.
+        2). Easy to Read and Write.
+        3). Language Independence.
+        4). Native Support in JavaScript.
+        5). Supports Nested Data.
+        6). Efficient Data Parsing.
+        7). Cross-Platform Compatibility.
+
+39. What is a Framework?
+
+    ans => A framework is a pre-built, reusable collection of tools, libraries, and guidelines that help developers build software applications more efficiently. It provides a structure or foundation that developers can build an application.
+
+40. How an HTTP Communication works.
+
+    ans =>TTP (HyperText Transfer Protocol) is the foundation of data communication on the web. It is used for transferring data between a client (web browser) and a server.
+
+41. What is Middleware in ExpressJS.
+
+    ans => Middleware functions are used to perform tasks before the request reaches the controller or before the response is sent back to the client.
